@@ -30,14 +30,10 @@ height_lb.grid(row=3, column =1)
 weigth_lb= Label(frame, text="Введите свой вес (в кг) ", )
 weigth_lb.grid(row=4, column = 1)
 
-height_tf = Entry(
-   frame, #Используем нашу заготовку с настроенными отступами.
-)
+height_tf = Entry(frame,)
 height_tf.grid(row=3, column=2)
 
-weight_tf = Entry(
-   frame, #Используем нашу заготовку с настроенными отступами.
-)
+weight_tf = Entry(frame,)
 weight_tf.grid(row=4, column=2)
 
 button_cl = Button(frame, text="Расчитать", command=calculate_bmi)
