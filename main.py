@@ -39,4 +39,5 @@ weight_tf.grid(row=4, column=2)
 button_cl = Button(frame, text="Расчитать", command=calculate_bmi)
 button_cl.grid(row=5, column = 2)
 
+
 window.mainloop()
